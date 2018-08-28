@@ -1,0 +1,85 @@
+@media (max-width: 768px)
+	html
+		font-size: 8px
+	.menu
+		&-link
+			z-index: 9
+			display: block
+			width: 5rem
+			height: 5rem
+			background-color: #fff
+			border-radius: 50%
+			box-shadow: 1px 1px 10px rgba(0,0,0,0.4)
+			position: fixed
+			top: 20px
+			right: 20px
+			cursor: pointer
+			span, span:before, span:after
+				display: block
+				height: 2px
+				width: 18px
+				background-color: #333
+				position: absolute
+				left: 50%
+				margin-left: -9px
+				top: 50%
+				margin-top: -1px
+			span:before
+				transition: all 0.2s
+				content: ''
+				margin-top: -6px
+			span:after
+				transition: all 0.2s
+				content: ''
+				margin-top: 4px
+			&__active span
+				background-color: transparent
+				&:before
+					transform: rotate(135deg)
+					margin-top: 0
+				&:after
+					transform: rotate(-135deg)
+					margin-top: 0
+
+		&_nav
+			display: none
+			opacity: 0		
+			background-color: rgba(0, 0, 0, 0.85)
+			width: 100vw
+			height: 100vh
+			position: fixed
+			&-menu				
+				margin-top: 180px
+				display: flex
+				flex-direction: column
+				flex-wrap: wrap
+				justify-content: center
+				
+				color: #fff
+				list-style: none
+			&__active
+				background-color: transparent
+				box-shadow: none
+			&_mobile__active
+				opacity: 1
+
+
+	.nav-item
+		a
+			display: block
+			color: #fff
+			text-decoration: none
+			padding: 2rem 2rem
+			text-align: center
+			&:hover
+				background-color: #17a2b8
+
+	.section
+		padding: 5rem 0
+
+	.front
+		&_darken
+			padding: 10rem 0
+
+	.block-title
+		margin-bottom: 3rem

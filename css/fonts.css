@@ -1,0 +1,14 @@
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+font-family: "Raleway Regular"; 
+// адрес шрифта и тип 
+
+src: url("fonts/Raleway-Regular.ttf"); 
+} 
+
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+font-family: "Raleway Thin"; 
+// адрес шрифта и тип 
+src: url("fonts/Raleway-Thin.ttf"); 
+} 
