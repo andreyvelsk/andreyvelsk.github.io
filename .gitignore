@@ -1,3 +1,2 @@
-img/
 sendform.php
-sftp-config.json
+.sftp*
