@@ -29,6 +29,13 @@ a {
 strong {
   font-weight: bold; }
 
+.skill {
+  display: inline-block;
+  background-color: rgba(203, 209, 211, 0.7);
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin: 0 0.8rem 0.8rem 0; }
+
 .menu-link {
   display: none; }
 .menu_nav {
@@ -275,3 +282,5 @@ strong {
 
   .block-title {
     margin-bottom: 3rem; } }
+
+/*# sourceMappingURL=style.css.map */
