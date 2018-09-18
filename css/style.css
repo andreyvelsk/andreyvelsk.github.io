@@ -202,6 +202,8 @@ strong {
   .modal-body_description {
     font-size: 1.4rem;
     padding: 1rem; }
+  .modal-body_warning {
+    padding: 1rem; }
 
 @media (max-width: 768px) {
   html {
